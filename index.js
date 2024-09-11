@@ -1,5 +1,9 @@
+import cowsay from 'cowsay';
 import Article from "./Article.mjs";
 import { mult, sum } from "./math.mjs";
+
+console.log(cowsay.say({text: 'qwerty!'}));
+
 
 console.log('hi from node!');
 const num1 = 5;
